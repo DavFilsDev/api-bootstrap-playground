@@ -1,62 +1,47 @@
-/* Sticky header bar */
 .sticky-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background-color: #ffffffcc; /* semi-transparent white */
-  backdrop-filter: blur(10px);
-  padding: 1rem 1.5rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffffcc; /* semi-transparent white */
+    backdrop-filter: blur(10px);
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-/* Adjust color in dark theme */
 body.dark-theme .sticky-header {
-  background-color: #1f1f1fcc; /* semi-transparent dark */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #1f1f1fcc; /* semi-transparent dark */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-
-/* Smooth transition */
 .transition {
-  transition: background-color 0.4s, color 0.4s;
+    transition: background-color 0.4s, color 0.4s;
 }
 
-/* Light Theme */
 body.light-theme {
-  background-color: #f8f9fa;
-  color: #212529;
+    background-color: #f8f9fa;
+    color: #212529;
 }
 
-/* Dark Theme */
 body.dark-theme {
-  background-color: #121212;
-  color: #e0e0e0;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 .dark-theme .card {
-  background-color: #1e1e1e;
-  color: #e0e0e0;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
 }
 
 .card {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
 }
 
 #prices .card-title {
-  font-weight: 600;
-}
-
-body.dark-theme #footer {
-  color: #382f2f;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-body.dark-theme #footer a {
-  color: #2575b6;
+    font-weight: 600;
 }
 
