@@ -45,3 +45,18 @@ body.dark-theme {
     font-weight: 600;
 }
 
+.text-light-green {
+  color: #66d39e; /* a soft, modern light green */
+}
+
+.card-gradient {
+  background: linear-gradient(135deg, #1e3c72, #8e44ad); /* Dark blue to purple */
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-gradient:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+

@@ -54,11 +54,11 @@ function recupererPrix() {
                     card.className = 'col-md-3';
 
                     card.innerHTML = `
-                        <div class="card shadow-sm border-0 h-100">
+                        <div class="card shadow-sm border-0 h-100 card-gradient">
                         <div class="card-body text-center">
-                            <h5 class="card-title">${currency}</h5>
-                            <p class="mb-1">${country}</p>
-                            <p class="card-text fs-4 text-success">${price}</p>
+                            <h5 class="card-title fw-bold fs-4">${currency}</h5>
+                            <p class="mb-1 fs-5 fw-semibold">${country}</p>
+                            <p class="card-text fs-4 fw-bold text-light-green">${price}</p>
                         </div>
                         </div>
                     `;
